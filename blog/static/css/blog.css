@@ -23,8 +23,12 @@ body {
     margin-left: 40px;
 }
 
-h1, h2, h3, h4 {
+h1, h2 {
     font-family: 'Gaegu', cursive;
+}
+
+h3, h4 {
+    font-family: 'Montserrat', sans-serif;
 }
 
 .date {
