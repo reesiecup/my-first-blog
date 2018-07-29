@@ -48,6 +48,7 @@ h1, h2, h3, h4 {
 
 .post {
     margin-bottom: 70px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .post h1 a, .post h1 a:visited {
