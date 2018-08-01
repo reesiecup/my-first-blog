@@ -63,3 +63,33 @@ h3, h4 {
 .comment {
     margin: 20px 0px 20px 20px;
 }
+
+.leftcolumn { 
+  float: left;
+  width: 75%;
+}
+
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn { 
+    width: 100%;
+    padding: 0;
+  }
+}
