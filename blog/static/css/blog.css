@@ -67,6 +67,7 @@ h3, h4 {
 .leftcolumn { 
   float: left;
   width: 75%;
+  padding-right: 20px;
 }
 
 .rightcolumn {
@@ -82,7 +83,7 @@ h3, h4 {
 }
 
 .card {
-  background-color: white;
+  background-color: #F8EFEE;
   padding: 20px;
   margin-top: 20px;
 }
