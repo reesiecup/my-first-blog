@@ -70,13 +70,13 @@ p {
 
 .leftcolumn { 
   float: left;
-  width: 75%;
+  width: 70%;
   padding-right: 20px;
 }
 
 .rightcolumn {
   float: left;
-  width: 25%;
+  width: 30%;
   padding-left: 20px;
 }
 
@@ -104,4 +104,27 @@ p {
     width: 100%;
     padding: 0;
   }
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
 }
