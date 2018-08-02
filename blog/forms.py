@@ -8,6 +8,7 @@ class TinyMCEWidget(TinyMCE):
         return False
 
 class PostForm(forms.ModelForm):
+	title = form.CharField(widget=TinyMCEWidget(attrs={'cols': 80, 'rows': 1}))
 	text = forms.CharField(widget=TinyMCEWidget(attrs={'cols': 80, 'rows': 15}))
 
 	class Meta:
