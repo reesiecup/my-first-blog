@@ -136,8 +136,8 @@ DATABASES['default'].update(db_from_env)
 DJANGO_WYSIWYG_FLAVOR = "tinymce"
 
 TINYMCE_DEFAULT_CONFIG = {
-    'height': 360,
-    'width': 1120,
+    'height': 300,
+    'width': 600,
     'cleanup_on_startup': True,
     'custom_undo_redo_levels': 20,
     'selector': 'textarea',
