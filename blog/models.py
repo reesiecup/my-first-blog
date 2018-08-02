@@ -1,10 +1,11 @@
 from django.db import models
 from django.utils import timezone
 from tinymce import models as tinymce_models
+from django import forms
 
 class Post(models.Model):
     author = models.ForeignKey('auth.User', on_delete=models.CASCADE)
-    title = models.CharField(max_length=200)
+    title = models.CharField(widget=forms.Textarea(attrs={'cols': 30, 'rows': 20}))
     text = tinymce_models.HTMLField()
     created_date = models.DateTimeField(
             default=timezone.now)

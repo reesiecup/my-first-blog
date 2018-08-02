@@ -137,7 +137,7 @@ DJANGO_WYSIWYG_FLAVOR = "tinymce"
 
 TINYMCE_DEFAULT_CONFIG = {
     'height': 300,
-    'width': 600,
+    'width': 800,
     'cleanup_on_startup': True,
     'custom_undo_redo_levels': 20,
     'selector': 'textarea',
