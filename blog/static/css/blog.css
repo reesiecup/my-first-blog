@@ -51,7 +51,8 @@ p {
 .top-menu, .top-menu:hover, .top-menu:visited {
     color: #ffffff;
     float: right;
-    font-size: 26pt;
+    font-size: 20pt;
+    font-family: 'Montserrat', sans-serif;
     margin-right: 20px;
 }
 
