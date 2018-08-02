@@ -4,7 +4,7 @@ from tinymce import models as tinymce_models
 
 class Post(models.Model):
     author = models.ForeignKey('auth.User', on_delete=models.CASCADE)
-    title = models.CharField(max_length=200)
+    title = models.CharField(label="text", max_length=200, widget=forms.TextInput(attrs={'size':'80', 'class':'inputText'}))
     text = tinymce_models.HTMLField()
     created_date = models.DateTimeField(
             default=timezone.now)
