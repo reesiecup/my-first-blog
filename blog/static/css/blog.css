@@ -32,6 +32,10 @@ h3, h4 {
     color: #ffffff;
 }
 
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+
 .date {
     color: #828282;
 }
@@ -86,4 +90,17 @@ h3, h4 {
   background-color: #F8EFEE;
   padding: 20px;
   margin-top: 20px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn { 
+    width: 100%;
+    padding: 0;
+  }
 }
