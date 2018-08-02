@@ -108,7 +108,7 @@ p {
 
 .fa {
     padding: 20px;
-    font-size: 30px;
+    font-size: 50px;
     width: 50px;
     text-align: center;
     text-decoration: none;
@@ -119,12 +119,17 @@ p {
     opacity: 0.7;
 }
 
-.fa-facebook {
-    background: #3B5998;
+.fa-github {
+    background: #000000;
     color: white;
 }
 
 .fa-twitter {
     background: #55ACEE;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #0077B5;
     color: white;
 }
